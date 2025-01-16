@@ -18,6 +18,7 @@ variable "project_name" {
 variable "cluster_name" {
   type        = string
   description = "The MongoDB Atlas Cluster Name"
+  default     = "vnk"
 }
 variable "cloud_provider" {
   type        = string
