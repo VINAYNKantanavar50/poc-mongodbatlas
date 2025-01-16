@@ -1,6 +1,6 @@
 public_key = "ssnkmhle"
 private_key = "524e74df-19e1-4158-a33d-da460d69b2eb"
-project_name = "vnk"
+project_name = "bm"
 cloud_provider = "AWS"
 org_id = "6788cccfe127700caae7fcb5"
 region = "US_EAST_1"
