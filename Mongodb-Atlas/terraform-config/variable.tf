@@ -15,7 +15,7 @@ variable "project_name" {
   description = "The MongoDB Atlas Project Name"
   
 }
-variable "cluster_name" {
+variable "db_name" {
   type        = string
   description = "The MongoDB Atlas Cluster Name"
   default     = "vnk"
