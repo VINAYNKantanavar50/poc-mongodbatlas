@@ -4,7 +4,7 @@ resource "mongodbatlas_project" "project" {
 }
 resource "mongodbatlas_advanced_cluster" "cluster" {
   project_id     = mongodbatlas_project.project.id
-  name           = var.cluster_name
+  name           = var.db_name
   cluster_type   = "REPLICASET"
   backup_enabled = false
 
